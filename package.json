@@ -1,0 +1,32 @@
+{
+  "name": "node-express-app",
+  "version": "1.0.0",
+  "description": "Sample Node Express App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmkanode/node-express-app.git"
+  },
+  "author": "Christopher M. Kanode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmkanode/node-express-app/issues"
+  },
+  "homepage": "https://github.com/cmkanode/node-express-app#readme",
+  "dependencies": {
+    "body-parser": "1.16.0",
+    "compression": "1.6.2",
+    "cookie-parser": "1.4.3",
+    "ejs": "2.5.5",
+    "express": "4.14.0",
+    "express-rate-limit": "2.6.0",
+    "express-session": "1.15.0",
+    "helmet": "3.4.0",
+    "jsonwebtoken": "7.2.1",
+    "nedb": "1.8.0",
+    "node-uuid": "1.4.7"
+  }
+}
