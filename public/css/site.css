@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #666;
+}
+
+.container {
+    width: 1000px;
+    background-color: #000;
+    color: #EEE;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    border-bottom: solid 4px #F00;
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+    border-top: solid 2px #F00;
+    margin-top: 2px;
+    border-bottom: solid 2px #F00;
+    margin-bottom: 2px;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    min-height: 50px;
+    text-align: center;
+    border-top: solid 4px #F00;
+}
