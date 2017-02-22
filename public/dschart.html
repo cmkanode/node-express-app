@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" value="width:device-width;initial-scale:1.0">
+    <title>D3</title>
+    <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <h3>SVG Bar</h3>
+    <svg width="100%" height="250">
+        <rect width="50" height="200" style="fill: blue;" />
+        <circle cx="25" cy="25" r="25" style="fill: green" />
+    </svg>
+
+    <h3>D3 Bar</h3>
+    <script>
+        var w = 200, h = 100;
+        var svg = d3.select("body")
+            .append("svg")
+                .attr("width", w)
+                .attr("height", h);
+        // svg.append("rect")
+        //         .attr('width', 50)
+        //         .attr('height', 200)
+        //         .style('fill', 'green');
+        //     svg.append("circle")
+        //         .attr("cx", 25).attr("cy", 25).attr("r", 25).style("fill", "blue");
+        var dataset = [5, 10, 15, 5, 20, 30, 10];
+        svg.selectAll('rect')
+            .data(dataset)
+            .enter()
+            .append('rect')
+            .attr('x', function(d, i){ return i * 21; })
+            .attr('y', function(d){ return h - d; }).attr('width', 20)
+            .attr('height', function(d, i){ return d;});
+    </script>
+</body>
+
+</html>

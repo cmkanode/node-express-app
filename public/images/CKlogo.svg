@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns3="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40.826832mm"
+   height="41.025517mm"
+   viewBox="0 0 144.662 145.366"
+   id="svg3380"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="CKlogo.svg">
+  <defs
+     id="defs3382">
+    <clipPath
+       id="XMLID_3_">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#XMLID_1_"
+         id="use17" />
+    </clipPath>
+    <clipPath
+       id="clipPath3354">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#XMLID_1_"
+         id="use3356" />
+    </clipPath>
+    <clipPath
+       id="clipPath3358">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#XMLID_1_"
+         id="use3360" />
+    </clipPath>
+    <clipPath
+       id="clipPath3362">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#XMLID_1_"
+         id="use3364" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-529.81186"
+     inkscape:cy="-333.03129"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3385">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-50.526143,-53.964919)">
+    <switch
+       transform="translate(39.195143,37.013919)"
+       id="switch6">
+      <g
+         ns3:extraneous="self"
+         id="g8">
+        <g
+           id="Layer_1"
+           ns3:layer="yes"
+           ns3:dimmedPercent="50"
+           ns3:rgbTrio="#4F008000FFFF">
+          <g
+             id="g11">
+            <defs
+               id="defs13">
+              <rect
+                 y="0"
+                 x="0"
+                 id="XMLID_1_"
+                 width="792"
+                 height="612" />
+            </defs>
+            <path
+               style="fill:none;stroke:#FFFFFF;stroke-width:3px"
+               inkscape:connector-curvature="0"
+               ns3:knockout="Off"
+               clip-path="url(#XMLID_3_)"
+               d="m 83.662,161.817 0,-144.366 C 43.991,17.45 11.831,49.769 11.831,89.633 c 0,39.867 32.16,72.184 71.831,72.184 z"
+               id="path19" />
+            <path
+               style="fill:none;stroke:#FFFFFF;stroke-width:3px"
+               inkscape:connector-curvature="0"
+               ns3:knockout="Off"
+               clip-path="url(#XMLID_3_)"
+               d="m 155.493,89.634 c 0,-8.325 -1.402,-16.321 -3.983,-23.762 l -0.267,-0.009 -41.317,23.854 41.533,23.814 c 0,0 4.034,-15.536 4.034,-23.897 z"
+               id="path21" />
+            <path
+               style="fill:none;stroke:#FFFFFF;stroke-width:3px"
+               inkscape:connector-curvature="0"
+               ns3:knockout="Off"
+               clip-path="url(#XMLID_3_)"
+               d="m 101.267,104.84 0.018,54.788 c 17.608,-4.462 32.63,-15.459 42.364,-30.273 L 101.267,104.84 Z"
+               id="path23" />
+            <path
+               style="fill:none;stroke:#FFFFFF;stroke-width:3px"
+               inkscape:connector-curvature="0"
+               ns3:knockout="Off"
+               clip-path="url(#XMLID_3_)"
+               d="m 101.26,74.392 42.242,-24.389 0.004,-0.307 C 133.769,34.991 118.807,24.08 101.284,19.639 l -0.024,54.753 z"
+               id="path25" />
+          </g>
+        </g>
+      </g>
+    </switch>
+  </g>
+</svg>

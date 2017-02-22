@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" value="width=device-width; initial-scale:1.0">
+    <link rel="stylesheet" href="css/site.css">
+    <script type="text/javascript" src="js/planet-statistics.js"></script>
+    <style type="text/css">
+        label { display: inline-block; width: 200px; text-align: right; }
+        td.number { text-align: right; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="header">
+        <img src="images/CKlogo.svg"> | Topher
+    </div>
+
+    <div class="content">
+        <h2>Planetary Scale</h2>
+        <p>Using the form below, select your planet and enter the distance that you want to model your scale of our solar system.  Distances are measured in feet.</p>
+        <p>
+            <label for="targetPlanet">Select Planet: </label>
+            <select name="targetPlanet" id="targetPlanet">
+                <optgroup label="Outer Planets">
+                    <option>Netpune</option>
+                    <option>Uranus</option>
+                    <option>Saturn</option>
+                    <option>Jupiter</option>
+                </optgroup>
+                <optgroup label="Inner Planets">
+                    <option>Mars</option>
+                    <option>Earth</option>
+                    <option>Venus</option>
+                    <option>Mercury</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="targetDistance">Target Distance (in feet): </label>
+            <input name="targetDistance" id="targetDistance" type="number">
+        </p>
+        <p>
+            <label>&nbsp;</label>
+            <button  id="calculate">Calculate Diameters and Average Distances</button>
+        </p>
+        <div id="calculations-container" style="display: none;">
+            <table>
+                <thead>
+                    <th>&nbsp;</th>
+                    <th>Diameter</th>
+                    <th>Avg. Distance from Sun</th>
+                </thead>
+                <tbody id="calculations"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; All Rights Reserved &bull; Christopher Kanode
+    </div>
+    </div>
+    <script type="text/javascript" src="js/planet-distances.js"></script>
+</body>
+
+</html>
